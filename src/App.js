@@ -5,10 +5,12 @@ function App() {
   return (
     <div>
       <div>
-        <h1> la liste des utilisateurs </h1>
+        <h1 className="titre"> La liste des utilisateurs </h1>
       </div>
-      <div className="css">
-        <Api />
+      <div className="home">
+        <div className="css">
+          <Api />
+        </div>
       </div>
     </div>
   );

@@ -15,7 +15,7 @@ export const Api = () => {
   }, []);
 
   return (
-    <div className="Container">
+    <div className="para">
       {listOfUSer.map((e) => (
         <User key={e.id} user={e} />
       ))}

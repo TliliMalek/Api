@@ -1,3 +1,4 @@
 export const User = ({ user }) => {
-  return <p className={`P${user.id}`}>{user.user}</p>;
+  console.log(user);
+  return <p>{user.name}</p>;
 };

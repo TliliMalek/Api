@@ -1,38 +1,22 @@
-.App {
-  text-align: center;
+p {
+  margin-left: 30%;
+  padding-top: 5px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.home {
+  background-image: url("./téléchargement\ \(3\).jfif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 2px black solid;
+  width: 25vw;
+  height: 90vh;
+  margin-left: 35%;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.titre {
+  color: peru;
+  margin-left: 38%;
+  font-family: "Times New Roman", Times, serif;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.para {
+  margin-top: 30%;
+  font-family: fantasy;
 }
